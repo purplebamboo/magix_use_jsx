@@ -1,0 +1,22 @@
+{
+  "name": "magix_use_jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "magix": "^3.8.7",
+    "magix-transform-jsx": "^1.0.0",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.0"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "build": "node --nolazy --inspect-brk=5858 ./node_modules/.bin/webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
